@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    width: 380px;
+    height: 550px;
+    background-color: #FF5733;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+  }
+  .text{
+   color: white;
+   position: relative;
+   bottom: 250px;
+   display: flex;
+   flex-direction: row;
+  }
+  .text i{
+   position: relative;
+   left: 20px;
+  }
+ .text h3{
+   position: absolute;
+   left:60px;
+   width: 300px;
+   margin-bottom: 200px;
+   font-weight: 600;
+ }
+ .text img{
+   position: absolute;
+   left:250px;
+ }
+.text .icon{
+   position: absolute;
+   left:300px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  
+
+}
+input{
+   height: 40px;
+   width: 300px;
+   border: none;
+   border-radius: 10px;
+   padding-left: 40px;
+   font-size: 15px;
+  
+}
+i{
+    font-size: 18px;
+}
+ .fa-user{
+    position: relative;
+    top:27px;
+    left:10px;
+
+ }
+ .fa-location-dot{
+    position: relative;
+    top:27px;
+    left:10px;
+ }
+ .fa-phone{
+    position: relative;
+    top:27px;
+    left:10px;
+ }
+ .fa-calendar-day{
+    position: relative;
+    top:27px;
+    left:10px;
+ }
+ .fa-message{
+   position: relative;
+   top:27px;
+   left:10px;
+ }
+h4{
+   position: relative;
+   top:35px;
+   left:10px;
+   font-size: 20px;
+}
+.amount{
+   width: 160px;
+   height: 50px;
+}  
+.radio {
+   position: relative;
+   left:180px;
+   bottom: 50px;
+   font-size: 15px;
+   /* display: flex;
+   flex-direction: column; */
+   
+}
+input[type="radio"] {
+   width: 20px;
+   height: 20px;
+ 
+}
+.btn .attach{
+   height: 40px;
+   width: 170px;
+   margin-right:5px;
+   border: none;
+}
+.btn .unattach{
+   height: 40px;
+   width: 170px;
+  border:none;
+ 
+}
+.calculator{
+   width: 220px;
+   height: 300px;
+   background-color: white;
+   /* border:2px solid red; */
+  position: relative;
+  left:470px;
+  bottom: 500px;
+  
+}
+.hidden{
+   display: none;
+}
+.display{
+
+   box-shadow: 0px 2px 1px rgb(142, 137, 137);
+
+}
+.display input{
+   width: 150px;
+   font-size: 20px;
+   
+}
+.display input ::placeholder{
+   color:black;
+}
+.display .fa-xmark{
+   padding-left: 40px;
+}
+.button{
+   margin-top: 10px;
+   margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  background-color: #FFf;
+  
+}
+.bottom{
+   display: flex;
+
+}
+.bottom p{
+   color:#FF5733;
+   padding-top: 20px;
+   padding-left: 20px;
+   
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h3>Add Customer</h3>
+            <img src="calculator.png" alt="" height="20px" width="25px">
+            <i class="fa-solid fa-check icon"></i>
+        </div>
+        <div class="section">
+            <i class="fa-solid fa-user"></i> <input type="text" placeholder="Name">
+            <i class="fa-solid fa-location-dot"></i> <input type="text" placeholder="Address or City">
+            <i class="fa-solid fa-phone"></i><input type="text" placeholder="Mobile Number">
+            <i class="fa-solid fa-calendar-day"></i><input type="text" name="date" id="date">
+            <i class="fa-solid fa-message"></i><input type="text" placeholder="Extra Remarks">
+            <h4>Rs</h4><input type="text" placeholder="Amount" class="amount">
+            <div class="radio">
+                <label for="id1">
+                    <input type="radio" name="amount" id="credit">Credit(+)
+                </label>
+                <br>
+                <label for="id2">
+                    <input type="radio" name="amount" id="Debit">Debit(-)
+                </label>
+            </div>
+            <div class="btn">
+                <button class="attach">ADD PICTURE OF BILL ETC.</button>
+                <button class="unattach">REMOVE ATTACHMENT</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="calculator hidden">
+        <div class="display">
+            <input type="text" placeholder="0">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+        </div>
+        <div >
+            <button class="button" >7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">/</button>
+        </div>
+        <div>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">*</button>
+        </div>
+        <div>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">-</button>
+        </div>
+        <div>
+            <button class="button">.</button>
+            <button class="button">0</button>
+            <button class="button">+</button>
+            <button class="button">=</button>
+        </div>
+        <hr>
+        <div class="bottom">
+           <p>CLEAR</p>
+           <p>CANCEL</p>
+           <p>OK</p>
+           
+        </div>
+     
+ 
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
